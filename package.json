@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://Alf-540.github.io/kiss",
+  "homepage": "https://avkostin.github.io/IceCream_company_site/",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /kiss/"
+    "build": "parcel build src/*.html --public-url /IceCream_company_site/"
   },
   "repository": {
     "type": "git",
