@@ -1,6 +1,7 @@
 .list {
   list-style: none;
 }
+
 .contacts-categories {
   font-family: DM Sans;
   font-style: normal;
@@ -20,6 +21,7 @@
   margin-bottom: 25px;
   margin-top: 0;
   height: 16px;
+
   @media screen and (min-width: 768px) {
     margin-bottom: 30px;
     font-size: 16px;
@@ -33,10 +35,12 @@
     }
   }
 }
+
 .foodtruck {
   background: #c2e297;
   width: 130px;
   text-transform: uppercase;
+
   @media screen and (min-width: 768px) {
     font-size: 16px;
     height: 28px;
@@ -48,6 +52,7 @@
     }
   }
 }
+
 .contacts-city {
   font-family: DM Sans;
   font-style: normal;
@@ -57,6 +62,7 @@
   letter-spacing: 0.04em;
   color: #000000;
   margin-bottom: 10px;
+
   @media screen and (min-width: 768px) {
     margin-bottom: 14px;
     font-size: 14px;
@@ -72,8 +78,6 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
-
   color: #907e82;
 
   @media screen and (min-width: 768px) {
@@ -85,7 +89,6 @@
 }
 .line::after {
   content: '';
-
   width: 179px;
   display: block;
   border: 1px solid #e1e1e1;
@@ -116,8 +119,6 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
-    /* or 22px */
-
     color: #000000;
 
     margin-bottom: 0;
@@ -163,8 +164,6 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 186%;
-  /* identical to box height, or 22px */
-
   color: #ffa5ba;
   margin-top: 0;
   @media screen and (min-width: 768px) {
