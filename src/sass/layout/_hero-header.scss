@@ -225,10 +225,12 @@
   letter-spacing: 0em;
   text-transform: uppercase;
   color: #d41443;
+
     @media screen and (min-width: 768px) {
       font-size: 34px;
       line-height: calc(31 / 34);
     }
+
     @media screen and (min-width: 1280px) {
       font-size: 58px;
       line-height: calc(52 / 58);
@@ -274,6 +276,7 @@
   background-color: $text-title-color;
   transition: background-color 250ms linear;
   color: #ffffff;
+
     &:hover,
     &:focus {
       background-color: $button-second-color;
@@ -313,6 +316,7 @@
       font-size: 14px;
       line-height: calc(18 / 14);
     }
+
     &:hover,
     &:focus {
       background: #ecebeb;
@@ -378,6 +382,7 @@
         width: 380px;
     }
 }
+
 .hero-text {
   display: block;
   color: white;
@@ -497,9 +502,11 @@
 .cafetrucks-list__item:not(:last-child) {
   margin-bottom: 14px;
 }
+
 .cafetrucks-list__text--padding {
   padding-left: 20px;
 }
+
 .cafetrucks-list__number {
   position: relative;
   color: $text-title-color;
@@ -545,7 +552,6 @@
     @media screen and (min-width: 1280px) {
       width: 30px;
       height: 30px;
-
       right: 5px;
     }
 }
