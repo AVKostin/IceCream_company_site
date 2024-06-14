@@ -374,35 +374,33 @@
  
   position: relative;
   width: 224px;
-  @media screen and (min-width: 1280px) {
-  
-    width: 380px;
-  }
+    @media screen and (min-width: 1280px) {
+        width: 380px;
+    }
 }
 .hero-text {
-  // position: relative;
   display: block;
   color: white;
   width: 295px;
   font-weight: 400;
   color: #ffffff;
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
-  @media screen and (min-width: 768px) {
-    padding-left: 120px;
-    width: 224px;
-    font-size: 8px;
-    line-height: calc(12 / 8);
-    color: #ffffff;
-  }
-  @media screen and (min-width: 1280px) {
-    display: block;
-    font-size: 14px;
-    line-height: calc(20 / 14);
-    padding-left: 180px;
-    width: 380px;
-  }
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+    @media screen and (min-width: 768px) {
+      padding-left: 120px;
+      width: 224px;
+      font-size: 8px;
+      line-height: calc(12 / 8);
+      color: #ffffff;
+    }
+    @media screen and (min-width: 1280px) {
+      display: block;
+      font-size: 14px;
+      line-height: calc(20 / 14);
+      padding-left: 180px;
+      width: 380px;
+    }
 }
 
 .products-list__secondary-text {
@@ -413,31 +411,31 @@
   width: 100%;
   transform: translate(-50%, -86%);
   transition: all 250ms ease-in-out;
-
   border-radius: 10px;
   background-color: #ffffff;
   color: $bg-color-product-third;
 
-  &--pink {
-    color: #ffa5ba;
-  }
+    &--pink {
+      color: #ffa5ba;
+    }
 
-  &--hidden-hero {
-    opacity: 0;
-    pointer-events: none;
-  }
+    &--hidden-hero {
+      opacity: 0;
+      pointer-events: none;
+    }
 
-  &--hidden-hero + .hero-arrow-btn {
-    transform: rotate(0);
-  }
+    &--hidden-hero + .hero-arrow-btn {
+      transform: rotate(0);
+    }
 }
+
 .products-list__secondary-text--hidden-hero {
   overflow: hidden;
   height: 110px;
   background-color: $menu-bg-color;
 }
+
 .hero-arrow-btn {
-  // outline: 2px solid red;
   display: block;
   margin: 0 auto;
   cursor: pointer;
@@ -450,28 +448,25 @@
   height: 26px;
   width: 26px;
   transition: all 250ms ease-in-out;
-    transform: rotate(-90deg);
+  transform: rotate(-90deg);
 
-  // &:hover,
-  // &:focus {
-  //   transition: all 250ms ease-in-out;
-  //   transform: rotate(-90deg);
-  // }
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
-  @media screen and (min-width: 768px) {
-    height: 18px;
-    width: 18px;
-    margin-top: 7px;
-    margin-left: 119px;
-  }
-  @media screen and (min-width: 1280px) {
-    height: 26px;
-    width: 26px;
-    margin-top: 20px;
-    margin-left: 180px;
-  }
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 768px) {
+      height: 18px;
+      width: 18px;
+      margin-top: 7px;
+      margin-left: 119px;
+    }
+
+    @media screen and (min-width: 1280px) {
+      height: 26px;
+      width: 26px;
+      margin-top: 20px;
+      margin-left: 180px;
+    }
 }
 
 .header-cafetracks {
