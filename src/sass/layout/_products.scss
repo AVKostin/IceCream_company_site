@@ -191,15 +191,15 @@
 .products-list__title {
   margin-bottom: 30px;
   font-family: Titan One;
-  @include font(normal, 400, 20px, 1.15, 0.04em);
-  text-transform: uppercase;
+    @include font(normal, 400, 20px, 1.15, 0.04em);
+    text-transform: uppercase;
 
-  color: #ffffff;
+    color: #ffffff;
 
-  @media screen and (min-width: 1280px) {
-    margin-bottom: 32px;
-    @include font(normal, 400, 30px, 1.13, 0.04em);
-  }
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 32px;
+      @include font(normal, 400, 30px, 1.13, 0.04em);
+    }
 
   &::after {
     content: '···';
@@ -223,19 +223,19 @@
   margin-bottom: 30px;
 
   font-family: DM Sans;
-  @include font(normal, 700, 14px, 1.52, 0.04em);
+    @include font(normal, 700, 14px, 1.52, 0.04em);
 
   color: #ffffff;
 
-  @media screen and (min-width: 768px) {
-    margin-bottom: 40px;
-    line-height: 1.76;
-  }
+    @media screen and (min-width: 768px) {
+      margin-bottom: 40px;
+      line-height: 1.76;
+    }
 
-  @media screen and (min-width: 1280px) {
-    margin-bottom: 62px;
-    font-size: 16px;
-  }
+    @media screen and (min-width: 1280px) {
+      margin-bottom: 62px;
+      font-size: 16px;
+    }
 }
 
 .products-list__secondary-text {
