@@ -306,6 +306,7 @@
     &:focus {
       background-color: $contacts-button-hover;
     }
+    
     @media screen and (min-width: 1280px) {
       width: 138px;
       height: 40px;
@@ -322,6 +323,7 @@
   position: absolute;
   top: 318px;
   z-index: 3;
+
     @media screen and (min-width: 768px) {
       position: relative;
       top: 0;
@@ -338,7 +340,7 @@
   left: 0;
   bottom: 28px;
   transition: bottom 500ms linear, transform 500ms ease-in-out;
-  
+
     @media screen and (max-width: 767px) {
       display: none;
     }
