@@ -152,7 +152,6 @@
 }
 
 .ellips {
-  // outline: 2px solid red;
   position: absolute;
   margin-left: 20px;
   width: 280px;
@@ -162,28 +161,28 @@
   background-size: cover;
   z-index: 1;
   transition: width 800ms linear, transform 300ms ease-in-out;
-  @media screen and (min-width: 450px) {
-    height: 344px;
-    width: 344px;
-  }
-  @media screen and (min-width: 768px) {
-    top: 31px;
-    left: 307px;
-    height: 324px;
-    width: 324px;
-    background-image: url(/images/hero/hero-pink-ellipse-des-2x.png);
-  }
-  @media screen and (min-width: 1280px) {
-    transition: left 800ms linear, transform 300ms ease-in-out;
-    top: 52px;
-    left: 475px;
-    height: 538px;
-    width: 538px;
-    background-image: url(/images/hero/hero-pink-ellipse-des-2x.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    z-index: 1;
-  }
+    @media screen and (min-width: 450px) {
+      height: 344px;
+      width: 344px;
+    }
+    @media screen and (min-width: 768px) {
+      top: 31px;
+      left: 307px;
+      height: 324px;
+      width: 324px;
+      background-image: url(/images/hero/hero-pink-ellipse-des-2x.png);
+    }
+    @media screen and (min-width: 1280px) {
+      transition: left 800ms linear, transform 300ms ease-in-out;
+      top: 52px;
+      left: 475px;
+      height: 538px;
+      width: 538px;
+      background-image: url(/images/hero/hero-pink-ellipse-des-2x.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      z-index: 1;
+    }
 }
 .header-ice-cream {
   position: absolute;
