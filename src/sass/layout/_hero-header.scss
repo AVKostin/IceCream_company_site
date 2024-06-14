@@ -272,20 +272,21 @@
   align-items: center;
   text-align: center;
   background-color: $text-title-color;
-  // background-color: $text-title-color;
   transition: background-color 250ms linear;
   color: #ffffff;
-  &:hover,
-  &:focus {
-    background-color: $button-second-color;
-  }
-  @media screen and (min-width: 1280px) {
-    width: 104px;
-    height: 40px;
-    font-size: 14px;
-    line-height: calc(18 / 14);
-  }
+    &:hover,
+    &:focus {
+      background-color: $button-second-color;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 104px;
+      height: 40px;
+      font-size: 14px;
+      line-height: calc(18 / 14);
+    }
 }
+
 .header-btn_how {
   width: 83px;
   height: 24px;
@@ -300,7 +301,6 @@
   text-align: center;
   background-color: #fff;
   color: $text-title-color;
-
   transition: background-color 250ms linear;
   &:hover,
   &:focus {
