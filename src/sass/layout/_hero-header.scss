@@ -12,42 +12,44 @@
   position: relative;
   // display: flex;
   border-bottom: 1px solid #d41443;
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    height: 399px;
-    border-bottom: 0;
-  }
-  
-  @media screen and (min-width: 1280px) {
-    width: 1280px;
-    height: 665px;
-  }
+
+    @media screen and (min-width: 768px) {
+      width: 768px;
+      height: 399px;
+      border-bottom: 0;
+    }
+
+    @media screen and (min-width: 1280px) {
+      width: 1280px;
+      height: 665px;
+    }
 }
 
 .header-logo {
   width: 199px;
 
-  @media screen and (min-width: 768px) {
-    display: flex;
-    padding-top: 37px;
-  }
+    @media screen and (min-width: 768px) {
+      display: flex;
+      padding-top: 37px;
+    }
 
-  @media screen and (min-width: 1280px) {
-    position: absolute;
-    top: 0;
-    left: 36px;
-  }
+    @media screen and (min-width: 1280px) {
+      position: absolute;
+      top: 0;
+      left: 36px;
+    }
 }
 
 .header_navi-list {
   display: flex;
   padding-left: 230px;
-  @media screen and (max-width: 479px) {
-    displaay: none;
-  }
-  @media screen and (min-width: 1280px) {
-    padding-top: 49px;
-  }
+
+    @media screen and (max-width: 479px) {
+      displaay: none;
+    }
+    @media screen and (min-width: 1280px) {
+      padding-top: 49px;
+    }
 }
 
 .header_navi-item {
@@ -59,9 +61,10 @@
   color: #ffffff;
   z-index: 2;
   transition: color 300ms linear;
-  @media screen and (max-width: 1279px) {
-    display: none;
-  }
+
+    @media screen and (max-width: 1279px) {
+      display: none;
+    }
 }
 
 .header_navi-item :hover,
