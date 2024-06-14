@@ -306,7 +306,7 @@
     &:focus {
       background-color: $contacts-button-hover;
     }
-    
+
     @media screen and (min-width: 1280px) {
       width: 138px;
       height: 40px;
@@ -353,18 +353,20 @@
 }
 
 .header-img-girl {
-  // outline: 2px solid black;
   position: absolute;
   bottom: 0;
   left: 177px;
   max-width: 500px;
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
-  @media screen and (min-width: 1280px) {
-    left: 288px;
-  }
+
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+    
+    @media screen and (min-width: 1280px) {
+      left: 288px;
+    }
 }
+
 .hero-wrapper {
   @media screen and (max-width: 767px) {
     display: none;
