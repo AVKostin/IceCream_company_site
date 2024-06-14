@@ -89,6 +89,7 @@
       transition: 300ms linear;
     }
 }
+
 .header-menu-block {
   display: flex;
   align-items: center;
@@ -145,6 +146,7 @@
   z-index: 1;
   fill: transparent;
   transition: background-color 250ms linear;
+
     &:hover,
     &:focus {
       background-color: $contacts-button-hover;
@@ -161,6 +163,7 @@
   background-size: cover;
   z-index: 1;
   transition: width 800ms linear, transform 300ms ease-in-out;
+
     @media screen and (min-width: 450px) {
       height: 344px;
       width: 344px;
