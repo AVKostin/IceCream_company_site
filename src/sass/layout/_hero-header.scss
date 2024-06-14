@@ -332,19 +332,22 @@
       padding-bottom: 112px;
     }
 }
+
 .hero-milk {
   position: absolute;
   left: 0;
   bottom: 28px;
   transition: bottom 500ms linear, transform 500ms ease-in-out;
-  @media screen and (max-width: 767px) {
-    display: none;
-  }
-  @media screen and (min-width: 1280px) {
-    transition: left 1000ms linear, transform 500ms ease-in-out;
-    left: 77px;
-    bottom: 45px;
-  }
+  
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+
+    @media screen and (min-width: 1280px) {
+      transition: left 1000ms linear, transform 500ms ease-in-out;
+      left: 77px;
+      bottom: 45px;
+    }
 }
 
 .header-img-girl {
